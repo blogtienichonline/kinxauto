@@ -174,7 +174,7 @@ export const SoftwareGallery: React.FC<SoftwareGalleryProps> = ({
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
             {uiTexts.titlePrefix}{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-cyan-400 to-indigo-400">
-              Kinx Auto v4.6.0
+              Kinx Auto v4.6.1
             </span>
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-300">

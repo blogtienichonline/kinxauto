@@ -70,7 +70,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({
       defaultCta: 'Chọn Gói Này',
       guaranteeTitle: 'Bảo Hành Kích Hoạt 100%',
       guaranteeDesc: 'Hỗ trợ Ultraview cài đặt trực tiếp tận tình',
-      updateTitle: 'Cập Nhật v4.6.0+ Tự Động',
+      updateTitle: 'Cập Nhật v4.6.1+ Tự Động',
       updateDesc: 'Nhận tính năng mới nhất hoàn toàn miễn phí',
     },
     en: {
@@ -81,7 +81,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({
       defaultCta: 'Select This Plan',
       guaranteeTitle: '100% Activation Guarantee',
       guaranteeDesc: 'Dedicated 1-on-1 setup support via remote desktop',
-      updateTitle: 'Automatic v4.6.0+ Updates',
+      updateTitle: 'Automatic v4.6.1+ Updates',
       updateDesc: 'Receive all future feature upgrades at zero extra cost',
     },
     ja: {
@@ -92,7 +92,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({
       defaultCta: 'このプランを選択',
       guaranteeTitle: '100% 動作・認証保証',
       guaranteeDesc: 'リモートツールによる丁寧な導入サポート',
-      updateTitle: 'v4.6.0+ 自動アップデート対応',
+      updateTitle: 'v4.6.1+ 自動アップデート対応',
       updateDesc: '最新機能を永続的に無料でお届け',
     },
     zh: {
@@ -103,7 +103,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({
       defaultCta: '立即选购该套餐',
       guaranteeTitle: '100% 激活与运行保障',
       guaranteeDesc: '专属技术人员远程 1 对 1 协助安装与配置',
-      updateTitle: '自动无缝升级至最新 v4.6.0+',
+      updateTitle: '自动无缝升级至最新 v4.6.1+',
       updateDesc: '全量免费享受后续最新 AI 模块迭代与特性',
     },
   }[language] || {
@@ -114,7 +114,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({
     defaultCta: 'Chọn Gói Này',
     guaranteeTitle: 'Bảo Hành Kích Hoạt 100%',
     guaranteeDesc: 'Hỗ trợ Ultraview cài đặt trực tiếp tận tình',
-    updateTitle: 'Cập Nhật v4.6.0+ Tự Động',
+    updateTitle: 'Cập Nhật v4.6.1+ Tự Động',
     updateDesc: 'Nhận tính năng mới nhất hoàn toàn miễn phí',
   };
 

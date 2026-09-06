@@ -776,7 +776,7 @@ export const getLocalizedPricingPlans = (lang: Language): PricingPlan[] => {
           'Seamless video extension, click-worthy thumbnail generator & virtual KOL creator',
           'Up to 20 ultra-fast parallel rendering threads',
           'Unlock all 12 proprietary Kinx Auto AI modules & tools',
-          '1-on-1 Ultraview / VIP Support 24/7 & free auto-updates to v4.6.0+'
+          '1-on-1 Ultraview / VIP Support 24/7 & free auto-updates to v4.6.1+'
         ],
         ctaText: 'Select This Plan',
         ctaType: 'secondary'
@@ -823,7 +823,7 @@ export const getLocalizedPricingPlans = (lang: Language): PricingPlan[] => {
           'Export 720p / 1080p Full HD with highest rendering priority',
           'Automated AI scriptwriting, YouTube extractor, Video Extender & KOL studio',
           'Up to 20 parallel threads for silky smooth video rendering',
-          'Unlock all 12 modules & free automatic upgrades to all future v4.6.0+ releases',
+          'Unlock all 12 modules & free automatic upgrades to all future v4.6.1+ releases',
           'Save over $89 compared to monthly recurring subscription',
           'VIP 1-on-1 priority technical support via Ultraview & Zalo 24/7'
         ],
@@ -877,7 +877,7 @@ export const getLocalizedPricingPlans = (lang: Language): PricingPlan[] => {
           '動画シームレス延長、バズるサムネイル生成＆ECバーチャルKOL動画制作',
           '最大20スレッドの超高速並列処理',
           'Kinx Autoの全12種類AIツールモジュールを完全開放',
-          'Ultraviewによる1対1のリモートサポート＆v4.6.0+無料アップデート'
+          'Ultraviewによる1対1のリモートサポート＆v4.6.1+無料アップデート'
         ],
         ctaText: 'このプランを選択',
         ctaType: 'secondary'
@@ -923,7 +923,7 @@ export const getLocalizedPricingPlans = (lang: Language): PricingPlan[] => {
           '720p / 1080p フルHD動画ダウンロード（最優先レンダリング帯域）',
           'AI台本自動作成、YouTube分析、長尺動画延長＆バーチャルKOL',
           '最大20スレッドの高速処理でスムーズな動画制作',
-          '全12種類モジュール開放＆1年間のv4.6.0+新機能自動無料アップデート',
+          '全12種類モジュール開放＆1年間のv4.6.1+新機能自動無料アップデート',
           '月払いと比較して大幅にコストを削減',
           'VIP優先1対1リモートサポート（Ultraview / 24時間受付）'
         ],
@@ -977,7 +977,7 @@ export const getLocalizedPricingPlans = (lang: Language): PricingPlan[] => {
           '无缝长视频延展、高点击率爆款封面生成及电商虚拟 KOL 口播视频制作',
           '支持高达 20 线程极速并发渲染',
           '解锁全部 12 大独家 AI 自动化生产力模块',
-          'Ultraview / 专属客服 1 对 1 远程协助，终身免费推送 v4.6.0+ 更新'
+          'Ultraview / 专属客服 1 对 1 远程协助，终身免费推送 v4.6.1+ 更新'
         ],
         ctaText: '选择此方案',
         ctaType: 'secondary'
@@ -1023,7 +1023,7 @@ export const getLocalizedPricingPlans = (lang: Language): PricingPlan[] => {
           '极速下载 720p / 1080p 全高清视频，享受最高优先级云端带宽',
           '自动生成 AI 文案、YouTube 拆解、长视频延展与电商 KOL 视频',
           '单机支持高达 20 线程并发处理，流畅稳定不卡顿',
-          '解锁全部 12 大功能模块，1 年内免费升级所有 v4.6.0+ 全新版本',
+          '解锁全部 12 大功能模块，1 年内免费升级所有 v4.6.1+ 全新版本',
           '相比月付订购立省大量成本',
           'VIP 专属 1 对 1 远程售后支持（Ultraview / 24小时响应）'
         ],

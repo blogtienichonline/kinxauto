@@ -42,7 +42,7 @@ export const DownloadSection: React.FC<DownloadSectionProps> = () => {
     vi: {
       badge: 'TRUNG TÂM TẢI PHẦN MỀM CHÍNH THỨC',
       title: 'Tải Kinx Auto',
-      titleHighlight: 'Phiên Bản 4.6.0',
+      titleHighlight: 'Phiên Bản 4.6.1',
       subtitle: 'Cài đặt nhanh chóng chỉ trong 1 phút. Hoàn toàn tương thích với Windows 10/11 và macOS.',
       liveScreensLabel: 'ẢNH GIAO DIỆN BẢN CÀI ĐẶT THỰC TẾ:',
       thumbs: {
@@ -56,7 +56,7 @@ export const DownloadSection: React.FC<DownloadSectionProps> = () => {
       imgBottomLeft: '✓ Đầy đủ tính năng như trong hình',
       imgBottomRight: 'Bản chuẩn 100% không gắn quảng cáo',
       winCard: {
-        badge: 'Bản Mới Nhất (v4.6.0)',
+        badge: 'Bản Mới Nhất (v4.6.1)',
         title: 'Kinx Auto cho Windows',
         compat: 'Tương thích: Windows 10, Windows 11 (64-bit). Hỗ trợ cài đặt tự động.',
         feat1: 'Dung lượng bộ cài: ~145 MB',
@@ -103,7 +103,7 @@ export const DownloadSection: React.FC<DownloadSectionProps> = () => {
     en: {
       badge: 'OFFICIAL SOFTWARE DOWNLOAD HUB',
       title: 'Download Kinx Auto',
-      titleHighlight: 'Version 4.6.0',
+      titleHighlight: 'Version 4.6.1',
       subtitle: 'Lightning-fast 1-minute setup. Fully compatible with Windows 10/11 and macOS.',
       liveScreensLabel: 'LIVE INSTALLER INTERFACE CAPTURE:',
       thumbs: {
@@ -117,7 +117,7 @@ export const DownloadSection: React.FC<DownloadSectionProps> = () => {
       imgBottomLeft: '✓ Complete features exactly as showcased',
       imgBottomRight: '100% Clean official build - No ads',
       winCard: {
-        badge: 'Latest Release (v4.6.0)',
+        badge: 'Latest Release (v4.6.1)',
         title: 'Kinx Auto for Windows',
         compat: 'Compatibility: Windows 10, Windows 11 (64-bit). Auto-installer included.',
         feat1: 'Installer size: ~145 MB',
@@ -164,7 +164,7 @@ export const DownloadSection: React.FC<DownloadSectionProps> = () => {
     ja: {
       badge: '公式ソフトウェアダウンロードセンター',
       title: 'Kinx Auto',
-      titleHighlight: 'バージョン 4.6.0 をダウンロード',
+      titleHighlight: 'バージョン 4.6.1 をダウンロード',
       subtitle: '1分でクイックインストール完了。Windows 10/11 および macOS に完全対応。',
       liveScreensLabel: '実際の操作画面プレビュー:',
       thumbs: {
@@ -178,7 +178,7 @@ export const DownloadSection: React.FC<DownloadSectionProps> = () => {
       imgBottomLeft: '✓ 表示通りの全機能をそのまま搭載',
       imgBottomRight: '100% 安全認証・広告一切なし',
       winCard: {
-        badge: '最新リリース (v4.6.0)',
+        badge: '最新リリース (v4.6.1)',
         title: 'Windows 版 Kinx Auto',
         compat: '対応環境: Windows 10, Windows 11 (64-bit)。自動導入対応。',
         feat1: 'インストーラーサイズ: 約145MB',
@@ -225,7 +225,7 @@ export const DownloadSection: React.FC<DownloadSectionProps> = () => {
     zh: {
       badge: '官方软件下载与更新中心',
       title: '下载 Kinx Auto 官方正式版',
-      titleHighlight: 'v4.6.0',
+      titleHighlight: 'v4.6.1',
       subtitle: '极速 1 分钟免繁琐配置安装，全面适配 Windows 10/11 及 macOS 系统。',
       liveScreensLabel: '正式版软件实际界面图：',
       thumbs: {
@@ -239,7 +239,7 @@ export const DownloadSection: React.FC<DownloadSectionProps> = () => {
       imgBottomLeft: '✓ 完整解锁所有实拍界面功能模块',
       imgBottomRight: '100% 官方绿色正式版 - 绝无任何广告',
       winCard: {
-        badge: '最新稳定版 (v4.6.0)',
+        badge: '最新稳定版 (v4.6.1)',
         title: 'Kinx Auto Windows 版',
         compat: '系统要求：Windows 10, Windows 11 (64位)。支持一键安装。',
         feat1: '安装包体积：约 145 MB',
@@ -286,7 +286,7 @@ export const DownloadSection: React.FC<DownloadSectionProps> = () => {
   }[language] || {
     badge: 'TRUNG TÂM TẢI PHẦN MỀM CHÍNH THỨC',
     title: 'Tải Kinx Auto',
-    titleHighlight: 'Phiên Bản 4.6.0',
+    titleHighlight: 'Phiên Bản 4.6.1',
     subtitle: 'Cài đặt nhanh chóng chỉ trong 1 phút. Hoàn toàn tương thích với Windows 10/11 và macOS.',
     liveScreensLabel: 'ẢNH GIAO DIỆN BẢN CÀI ĐẶT THỰC TẾ:',
     thumbs: {
@@ -300,7 +300,7 @@ export const DownloadSection: React.FC<DownloadSectionProps> = () => {
     imgBottomLeft: '✓ Đầy đủ tính năng như trong hình',
     imgBottomRight: 'Bản chuẩn 100% không gắn quảng cáo',
     winCard: {
-      badge: 'Bản Mới Nhất (v4.6.0)',
+      badge: 'Bản Mới Nhất (v4.6.1)',
       title: 'Kinx Auto cho Windows',
       compat: 'Tương thích: Windows 10, Windows 11 (64-bit). Hỗ trợ cài đặt tự động.',
       feat1: 'Dung lượng bộ cài: ~145 MB',

@@ -177,7 +177,7 @@ export const Footer: React.FC<FooterProps> = ({
                 Kinx Auto
               </span>
               <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-purple-500/20 text-purple-300 border border-purple-500/30">
-                v4.6.0 Pro
+                v4.6.1 Pro
               </span>
             </div>
 
@@ -445,7 +445,7 @@ export const Footer: React.FC<FooterProps> = ({
               <ShieldCheck className="w-3.5 h-3.5" /> {t('footer.safeBadge', '100% An Toàn & Bảo Mật')}
             </span>
             <span>•</span>
-            <span>v4.6.0 Build 2026</span>
+            <span>v4.6.1 Build 2026</span>
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ import {
 } from 'lucide-react';
 import { USER_ATTACHMENT_IMAGES, AUDIO_SAMPLES } from '../data/images';
 import { useLanguage } from '../context/LanguageContext';
-import { playSampleAudioUrl, stopAllTTS } from '../utils/ttsPlayer';
+import { playSampleAudioUrl, stopAllTTS, setSampleAudioPlaybackRate } from '../utils/ttsPlayer';
 
 interface DialogueVoiceShowcaseProps {
   onOpenLeadModal?: () => void;
@@ -40,11 +40,17 @@ export const DialogueVoiceShowcase: React.FC<DialogueVoiceShowcaseProps> = ({
   const [currentTime, setCurrentTime] = useState<number>(0);
   const [duration, setDuration] = useState<number>(0);
   const [activeSpeakerIndex, setActiveSpeakerIndex] = useState<number>(0);
+  const [playbackSpeed, setPlaybackSpeed] = useState<number>(1.15);
   const [isMuted, setIsMuted] = useState<boolean>(false);
   const [isZoomed, setIsZoomed] = useState<boolean>(false);
 
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const progressIntervalRef = useRef<number | null>(null);
+
+  const handleSpeedChange = (newSpeed: number) => {
+    setPlaybackSpeed(newSpeed);
+    setSampleAudioPlaybackRate(newSpeed);
+  };
 
   // Script dialogue segments aligned with real sample timeline
   const dialogueLines = [
@@ -100,6 +106,7 @@ export const DialogueVoiceShowcase: React.FC<DialogueVoiceShowcaseProps> = ({
       setIsPlaying(true);
       playSampleAudioUrl({
         audioUrl: AUDIO_SAMPLES.dialogueConversation,
+        playbackRate: playbackSpeed,
         onStart: () => {
           setIsPlaying(true);
         },
@@ -253,7 +260,7 @@ export const DialogueVoiceShowcase: React.FC<DialogueVoiceShowcaseProps> = ({
         <div className="flex items-center gap-2">
           <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-emerald-500/10 border border-emerald-500/30 text-emerald-300 text-xs font-semibold">
             <Radio className="w-3.5 h-3.5 text-emerald-400 animate-pulse" />
-            <span>Kinx Auto v4.6.0+</span>
+            <span>Kinx Auto v4.6.1+</span>
           </span>
           <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md bg-blue-500/10 border border-blue-500/30 text-blue-300 text-xs font-semibold">
             <Users className="w-3.5 h-3.5 text-blue-400" />
@@ -373,6 +380,25 @@ export const DialogueVoiceShowcase: React.FC<DialogueVoiceShowcaseProps> = ({
                     }}
                   />
                 </div>
+              </div>
+
+              {/* Playback Speed Selector */}
+              <div className="flex items-center gap-1 bg-slate-900/90 p-1 rounded-xl border border-slate-800 shrink-0">
+                {[1.0, 1.15, 1.25].map((spd) => (
+                  <button
+                    key={spd}
+                    type="button"
+                    onClick={() => handleSpeedChange(spd)}
+                    className={`px-2 py-1 rounded-lg text-[11px] font-mono font-bold transition-all ${
+                      playbackSpeed === spd
+                        ? 'bg-gradient-to-r from-purple-600 to-pink-600 text-white shadow-sm ring-1 ring-purple-400/40'
+                        : 'text-slate-400 hover:text-white hover:bg-slate-800'
+                    }`}
+                    title={`Tốc độ phát ${spd}x`}
+                  >
+                    {spd}x
+                  </button>
+                ))}
               </div>
 
               {/* Download Sample Audio */}

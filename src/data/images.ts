@@ -39,5 +39,5 @@ export const APP_IMAGES = {
 };
 
 export const AUDIO_SAMPLES = {
-  dialogueConversation: 'https://cdn.hostmora.app/voicekinx/d8b39883-15d4-4809-8c73-4f448dfc955d/kinxts_conv_1788246972701.wav',
+  dialogueConversation: 'http://tainguyenweb.com/kinxts_conv_1788353347213.wav',
 };

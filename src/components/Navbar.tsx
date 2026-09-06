@@ -88,7 +88,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 Kinx Auto
               </span>
               <span className="text-[9px] sm:text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-purple-500/20 text-purple-300 border border-purple-500/30 whitespace-nowrap">
-                {t('nav.versionBadge', 'v4.6.0')}
+                {t('nav.versionBadge', 'v4.6.1')}
               </span>
             </div>
             <p className="text-[10px] xl:text-[11px] text-slate-400 font-medium hidden 2xl:block whitespace-nowrap">
@@ -226,7 +226,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   />
                 </div>
                 <div>
-                  <p className="text-xs sm:text-sm font-bold text-white">Kinx Auto v4.6.0</p>
+                  <p className="text-xs sm:text-sm font-bold text-white">Kinx Auto v4.6.1</p>
                   <p className="text-[10px] sm:text-[11px] text-slate-400">{t('nav.tagline', 'Tự Động Hóa Video AI Hàng Loạt')}</p>
                 </div>
               </div>

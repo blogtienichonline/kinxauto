@@ -443,12 +443,14 @@ export function speakEdgeTTS({
 // Plays a direct sample audio URL with high compatibility and status callbacks
 export function playSampleAudioUrl({
   audioUrl,
+  playbackRate = 1.15,
   onStart,
   onEnd,
   onError,
   onTimeUpdate,
 }: {
   audioUrl: string;
+  playbackRate?: number;
   onStart?: () => void;
   onEnd?: () => void;
   onError?: (err: unknown) => void;
@@ -460,11 +462,33 @@ export function playSampleAudioUrl({
 
   try {
     const audio = new Audio();
-    audio.crossOrigin = 'anonymous';
-    audio.src = audioUrl;
+    // Use https if current page is on https to avoid mixed-content blocks
+    let finalUrl = audioUrl;
+    if (typeof window !== 'undefined' && window.location.protocol === 'https:' && finalUrl.startsWith('http://')) {
+      finalUrl = finalUrl.replace(/^http:\/\//i, 'https://');
+    }
+    audio.preload = 'auto';
+    audio.defaultPlaybackRate = playbackRate;
+    audio.playbackRate = playbackRate;
+    audio.src = finalUrl;
     globalFallbackAudio = audio;
 
-    audio.onplay = () => onStart?.();
+    const applyRate = () => {
+      try {
+        audio.playbackRate = playbackRate;
+      } catch (e) {
+        // Ignore
+      }
+    };
+
+    audio.onloadedmetadata = () => {
+      applyRate();
+    };
+
+    audio.onplay = () => {
+      applyRate();
+      onStart?.();
+    };
     audio.onended = () => {
       if (globalFallbackAudio === audio) globalFallbackAudio = null;
       onEnd?.();
@@ -498,5 +522,16 @@ export function playSampleAudioUrl({
     onError?.(err);
     onEnd?.();
     return () => {};
+  }
+}
+
+export function setSampleAudioPlaybackRate(rate: number) {
+  if (globalFallbackAudio) {
+    try {
+      globalFallbackAudio.defaultPlaybackRate = rate;
+      globalFallbackAudio.playbackRate = rate;
+    } catch (e) {
+      // Ignore
+    }
   }
 }

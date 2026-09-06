@@ -23,7 +23,7 @@ export const INITIAL_SECTIONS: SectionConfig[] = [
   { id: 'comparison', title: 'So Sánh Kinx Auto vs Cách Thủ Công', description: 'Bảng đối chiếu tốc độ, chi phí đầu tư, công sức và độ ổn định', enabled: true, order: 7 },
   { id: 'pricing', title: 'Bảng Giá & Các Gói Đăng Ký', description: 'Các gói Gói Cá Nhân Pro, Gói Team Pro 5 Máy, Gói 1 Năm Tiết Kiệm, Gói Doanh nghiệp', enabled: true, order: 8 },
   { id: 'testimonials', title: 'Đánh Giá & Case Study Triệu View', description: 'Review chân thực từ các admin kênh YouTube Automation & TikTok Affiliate', enabled: true, order: 9 },
-  { id: 'download-hub', title: 'Trung Tâm Tải Về & Cài Đặt (Windows/Mac)', description: 'Link tải trực tiếp bộ cài v4.6.0, hướng dẫn 3 bước cài đặt siêu nhanh', enabled: true, order: 10 },
+  { id: 'download-hub', title: 'Trung Tâm Tải Về & Cài Đặt (Windows/Mac)', description: 'Link tải trực tiếp bộ cài v4.6.1, hướng dẫn 3 bước cài đặt siêu nhanh', enabled: true, order: 10 },
   { id: 'faq', title: 'Câu Hỏi Thường Gặp (FAQ)', description: 'Giải đáp thắc mắc về cấu hình máy, đăng ký & nâng cấp gói, cập nhật tính năng', enabled: true, order: 11 },
 ];
 
@@ -602,7 +602,7 @@ export const KINX_MODULES: FeatureModule[] = [
     ],
     uiMockup: {
       title: 'Kinx Auto Hub & Settings',
-      subtitle: 'Phiên bản 4.6.0 - Zalo hỗ trợ: 0563.402.950',
+      subtitle: 'Phiên bản 4.6.1 - Zalo hỗ trợ: 0563.402.950',
       tabs: ['API Key Gemini', 'Ghép file', 'Hỗ trợ kỹ thuật'],
       activeTab: 'API Key Gemini',
       controlBar: {
@@ -621,7 +621,7 @@ export const KINX_MODULES: FeatureModule[] = [
     hotspots: [
       { id: 'h1', xPercent: 12, yPercent: 68, title: 'Menu Quản Lý API Key Gemini', description: 'Dán danh sách API key để phần mềm tự động điều phối không lo gián đoạn.', badge: 'Key Pool' },
       { id: 'h2', xPercent: 12, yPercent: 75, title: 'Kênh Hỗ Trợ 24/7 qua Zalo', description: 'Đội ngũ kỹ thuật hỗ trợ qua Ultraview và Zalo 0563.402.950.', badge: 'Support 24/7' },
-      { id: 'h3', xPercent: 12, yPercent: 88, title: 'Thông Tin Phiên Bản 4.6.0', description: 'Tự động cập nhật các thuật toán mới nhất của Veo và Edge TTS hoàn toàn miễn phí.', badge: 'Auto Update' }
+      { id: 'h3', xPercent: 12, yPercent: 88, title: 'Thông Tin Phiên Bản 4.6.1', description: 'Tự động cập nhật các thuật toán mới nhất của Veo và Edge TTS hoàn toàn miễn phí.', badge: 'Auto Update' }
     ],
     realImage: APP_IMAGES.videoFlow,
     imageCaption: 'Tự động tối ưu hoá tài nguyên hệ thống và hỗ trợ kỹ thuật Ultraview 24/7'
@@ -647,7 +647,7 @@ export const PRICING_PLANS: PricingPlan[] = [
       'Mở rộng video dài liền mạch, tạo thumbnail giật tít & làm video TMĐT KOL',
       'Tốc độ xử lý đa luồng lên đến 20 Luồng chạy song song',
       'Mở khóa toàn bộ 12 Module chức năng tools độc quyền của Kinx Auto',
-      'Hỗ trợ kỹ thuật 1-kèm-1 qua Ultraview / Zalo 24/7 & Cập nhật v4.6.0+ miễn phí'
+      'Hỗ trợ kỹ thuật 1-kèm-1 qua Ultraview / Zalo 24/7 & Cập nhật v4.6.1+ miễn phí'
     ],
     ctaText: 'Chọn Gói Này',
     ctaType: 'secondary'
@@ -694,7 +694,7 @@ export const PRICING_PLANS: PricingPlan[] = [
       'Tải video 720p / 1080p Full HD siêu nét, ưu tiên băng thông render nhanh nhất',
       'Tự động tạo kịch bản AI, bóc tách YouTube, mở rộng video dài & TMĐT KOL',
       'Số luồng lên đến 20 Luồng xử lý mượt mà không giật lag',
-      'Mở khóa toàn bộ 12 Module tools và tự động cập nhật miễn phí mọi phiên bản v4.6.0+',
+      'Mở khóa toàn bộ 12 Module tools và tự động cập nhật miễn phí mọi phiên bản v4.6.1+',
       'Tiết kiệm hơn 650.000đ so với gia hạn từng tháng',
       'Hỗ trợ kỹ thuật VIP 1-kèm-1 qua Ultraview / Zalo 24/7'
     ],

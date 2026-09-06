@@ -102,7 +102,7 @@ export const ComparisonTable: React.FC<ComparisonTableProps> = ({
                   <th className="p-4 sm:p-5 text-xs sm:text-sm font-bold text-purple-300 bg-purple-950/40 border-x border-purple-500/30 w-1/3">
                     <div className="flex items-center gap-2">
                       <Sparkles className="w-4 h-4 text-purple-400" />
-                      <span>Kinx Auto (v4.6.0)</span>
+                      <span>Kinx Auto (v4.6.1)</span>
                       <span className="text-[10px] px-2 py-0.5 rounded-full bg-purple-500 text-white font-black">
                         {uiTexts.colRecommended}
                       </span>

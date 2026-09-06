@@ -18,7 +18,7 @@ export const TRANSLATIONS: Record<Language, Record<string, any>> = {
       selectLanguage: 'Chọn ngôn ngữ',
       communityGroup: 'Nhóm Zalo',
       facebookPage: 'Facebook',
-      versionBadge: 'v4.6.0',
+      versionBadge: 'v4.6.1',
       tagline: 'Tự Động Hóa Video AI Hàng Loạt'
     },
     // Language notice toast
@@ -49,13 +49,13 @@ export const TRANSLATIONS: Record<Language, Record<string, any>> = {
         speed: '10x Tốc độ sản xuất'
       },
       buttons: {
-        downloadWindows: 'Tải Phần Mềm Miễn Phí (v4.6.0)',
+        downloadWindows: 'Tải Phần Mềm Miễn Phí (v4.6.1)',
         downloadMac: 'Tải Cho macOS (.dmg)',
         viewPricing: 'Xem Bảng Giá Nâng Cấp',
         watchDemo: 'Xem Video Trải Nghiệm',
         tryFree: 'Đăng Ký Dùng Thử Miễn Phí'
       },
-      livePreviewBanner: 'Giao diện thực tế phần mềm Kinx Auto v4.6.0 trên Windows 11'
+      livePreviewBanner: 'Giao diện thực tế phần mềm Kinx Auto v4.6.1 trên Windows 11'
     },
     // Interactive Flow
     workflow: {
@@ -128,7 +128,7 @@ export const TRANSLATIONS: Record<Language, Record<string, any>> = {
       title: 'Tại Sao Content Creator Chọn',
       subtitle: 'Đối chiếu chi tiết giữa giải pháp tự động hóa Kinx Auto với các phương pháp truyền thống.',
       featureCol: 'Tính Năng & Tiêu Chí',
-      kinxCol: 'Kinx Auto v4.6.0',
+      kinxCol: 'Kinx Auto v4.6.1',
       manualCol: 'Làm Thủ Công / Thuê Ngoài',
       otherToolsCol: 'Web Tool Khác'
     },
@@ -163,7 +163,7 @@ export const TRANSLATIONS: Record<Language, Record<string, any>> = {
     // Download Hub
     download: {
       tag: 'TRUNG TÂM TẢI PHẦN MỀM CHÍNH THỨC',
-      title: 'Tải Kinx Auto Phiên Bản 4.6.0',
+      title: 'Tải Kinx Auto Phiên Bản 4.6.1',
       subtitle: 'Cài đặt nhanh chóng chỉ trong 1 phút. Hoàn toàn tương thích với Windows 10/11 và macOS.',
       downloadWin: 'Tải Bản Windows (.exe)',
       downloadMac: 'Tải Bản macOS (.dmg)',
@@ -218,7 +218,7 @@ export const TRANSLATIONS: Record<Language, Record<string, any>> = {
       selectLanguage: 'Select Language',
       communityGroup: 'Community',
       facebookPage: 'Facebook',
-      versionBadge: 'v4.6.0',
+      versionBadge: 'v4.6.1',
       tagline: 'Batch AI Video Automation Software'
     },
     // Language notice toast
@@ -255,7 +255,7 @@ export const TRANSLATIONS: Record<Language, Record<string, any>> = {
         watchDemo: 'Watch Interactive Demo',
         tryFree: 'Start Free Trial Now'
       },
-      livePreviewBanner: 'Real software interface of Kinx Auto v4.6.0 on Windows 11 / macOS'
+      livePreviewBanner: 'Real software interface of Kinx Auto v4.6.1 on Windows 11 / macOS'
     },
     // Interactive Flow
     workflow: {
@@ -328,7 +328,7 @@ export const TRANSLATIONS: Record<Language, Record<string, any>> = {
       title: 'Why Do 15,000+ Creators Choose Kinx Auto?',
       subtitle: 'Unrivaled productivity advantage compared to manual video editing and sluggish web tools',
       featureCol: 'Key Features & Capabilities',
-      kinxCol: 'Kinx Auto Desktop v4.6.0',
+      kinxCol: 'Kinx Auto Desktop v4.6.1',
       manualCol: 'Manual Editing / Outsourcing',
       otherToolsCol: 'Other Cloud Web Tools'
     },
@@ -363,7 +363,7 @@ export const TRANSLATIONS: Record<Language, Record<string, any>> = {
     // Download Hub
     download: {
       tag: 'OFFICIAL DOWNLOAD CENTER',
-      title: 'Download Kinx Auto v4.6.0 Today',
+      title: 'Download Kinx Auto v4.6.1 Today',
       subtitle: 'Install in under 1 minute. Fully compatible with Windows 10/11 (64-bit) and macOS (Apple Silicon & Intel).',
       downloadWin: 'Download for Windows (.exe)',
       downloadMac: 'Download for macOS (.dmg)',
@@ -418,7 +418,7 @@ export const TRANSLATIONS: Record<Language, Record<string, any>> = {
       selectLanguage: '言語を選択',
       communityGroup: 'コミュニティ',
       facebookPage: 'Facebook',
-      versionBadge: 'v4.6.0',
+      versionBadge: 'v4.6.1',
       tagline: 'AI動画一括自動生成ソフトウェア'
     },
     // Language notice toast
@@ -455,7 +455,7 @@ export const TRANSLATIONS: Record<Language, Record<string, any>> = {
         watchDemo: 'デモを体験する',
         tryFree: '今すぐ無料で試す'
       },
-      livePreviewBanner: 'Kinx Auto v4.6.0 実際のデスクトップ画面（Windows 11 / macOS対応）'
+      livePreviewBanner: 'Kinx Auto v4.6.1 実際のデスクトップ画面（Windows 11 / macOS対応）'
     },
     // Interactive Flow
     workflow: {
@@ -528,7 +528,7 @@ export const TRANSLATIONS: Record<Language, Record<string, any>> = {
       title: 'なぜ15,000人以上のクリエイターに選ばれるのか？',
       subtitle: '手作業の編集や一般的なクラウドWebツールとの圧倒的な差',
       featureCol: '機能・評価項目',
-      kinxCol: 'Kinx Auto v4.6.0',
+      kinxCol: 'Kinx Auto v4.6.1',
       manualCol: '手作業・外注制作',
       otherToolsCol: '他社クラウドWebツール'
     },
@@ -563,7 +563,7 @@ export const TRANSLATIONS: Record<Language, Record<string, any>> = {
     // Download Hub
     download: {
       tag: '公式ダウンロードセンター',
-      title: 'Kinx Auto v4.6.0 をダウンロード',
+      title: 'Kinx Auto v4.6.1 をダウンロード',
       subtitle: 'わずか1分でセットアップ完了。Windows 10/11 (64-bit) および macOS (Mシリーズ・Intel) に完全対応。',
       downloadWin: 'Windows版をダウンロード (.exe)',
       downloadMac: 'macOS版をダウンロード (.dmg)',
@@ -618,7 +618,7 @@ export const TRANSLATIONS: Record<Language, Record<string, any>> = {
       selectLanguage: '选择语言',
       communityGroup: '交流群组',
       facebookPage: 'Facebook',
-      versionBadge: 'v4.6.0',
+      versionBadge: 'v4.6.1',
       tagline: '批量AI视频全自动创作软件'
     },
     // Language notice toast
@@ -655,7 +655,7 @@ export const TRANSLATIONS: Record<Language, Record<string, any>> = {
         watchDemo: '观看交互演示',
         tryFree: '立即免费体验'
       },
-      livePreviewBanner: 'Kinx Auto v4.6.0 真实客户端操作界面（支持 Windows 11 / macOS）'
+      livePreviewBanner: 'Kinx Auto v4.6.1 真实客户端操作界面（支持 Windows 11 / macOS）'
     },
     // Interactive Flow
     workflow: {
@@ -728,7 +728,7 @@ export const TRANSLATIONS: Record<Language, Record<string, any>> = {
       title: '为何超过15,000+ 创作者选择 Kinx Auto？',
       subtitle: '全方位对比传统手工制作与普通网页工具的颠覆性优势',
       featureCol: '核心功能与对比维度',
-      kinxCol: 'Kinx Auto 客户端 v4.6.0',
+      kinxCol: 'Kinx Auto 客户端 v4.6.1',
       manualCol: '人工剪辑 / 外包制作',
       otherToolsCol: '其他云端网页工具'
     },
@@ -763,7 +763,7 @@ export const TRANSLATIONS: Record<Language, Record<string, any>> = {
     // Download Hub
     download: {
       tag: '官方正版下载中心',
-      title: '下载 Kinx Auto v4.6.0 正式版',
+      title: '下载 Kinx Auto v4.6.1 正式版',
       subtitle: '1分钟极速安装。完美兼容 Windows 10/11 (64位) 及 macOS (Apple M芯片与Intel芯片)。',
       downloadWin: '下载 Windows 安装包 (.exe)',
       downloadMac: '下载 macOS 安装包 (.dmg)',
