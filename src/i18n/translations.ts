@@ -53,7 +53,7 @@ export const TRANSLATIONS: Record<Language, Record<string, any>> = {
         downloadMac: 'Tải Cho macOS (.dmg)',
         viewPricing: 'Xem Bảng Giá Nâng Cấp',
         watchDemo: 'Xem Video Trải Nghiệm',
-        tryFree: 'Đăng Ký Dùng Thử Miễn Phí'
+        tryFree: 'Tải Tool Dùng Thử'
       },
       livePreviewBanner: 'Giao diện thực tế phần mềm Kinx Auto v4.8.2 trên Windows 11'
     },
@@ -253,7 +253,7 @@ export const TRANSLATIONS: Record<Language, Record<string, any>> = {
         downloadMac: 'Download for macOS (.dmg)',
         viewPricing: 'View Pricing Plans',
         watchDemo: 'Watch Interactive Demo',
-        tryFree: 'Start Free Trial Now'
+        tryFree: 'Download Tool Trial'
       },
       livePreviewBanner: 'Real software interface of Kinx Auto v4.8.2 on Windows 11 / macOS'
     },

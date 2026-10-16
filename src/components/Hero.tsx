@@ -341,11 +341,11 @@ export const Hero: React.FC<HeroProps> = ({
             </button>
 
             <button
-              onClick={onOpenLeadModal}
+              onClick={handleDownloadClick}
               className="w-full sm:w-auto flex items-center justify-center gap-2.5 px-7 py-4 rounded-2xl bg-slate-800/90 hover:bg-slate-700/90 text-white font-bold text-sm sm:text-base border border-slate-700/80 hover:border-cyan-500/50 transition-all shadow-lg hover:scale-[1.02] active:scale-[0.98] cursor-pointer"
             >
-              <Sparkles className="w-5 h-5 text-cyan-400 shrink-0" />
-              <span>{t('hero.buttons.tryFree', 'Đăng Ký Dùng Thử Miễn Phí')}</span>
+              <Download className="w-5 h-5 text-cyan-400 shrink-0" />
+              <span>{t('hero.buttons.tryFree', 'Tải Tool Dùng Thử')}</span>
               <ArrowRight className="w-4 h-4 text-slate-400 shrink-0" />
             </button>
           </motion.div>
