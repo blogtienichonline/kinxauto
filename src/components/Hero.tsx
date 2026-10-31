@@ -50,10 +50,10 @@ export const Hero: React.FC<HeroProps> = ({
     vi: {
       announcement: 'Tích Hợp Google Veo 3.1 & Nano Banana Pro Mới Nhất',
       cleanSecurity: '100% Sạch Mã Độc - Không Quảng Cáo',
-      videoTitle: 'Kinx Auto v4.8.2 - Video Giới Thiệu Tính Năng',
+      videoTitle: 'Kinx Auto v4.9.1 - Video Giới Thiệu Tính Năng',
       btnVideo: 'Xem Video Nhúng Trực Tiếp',
       btnScreenshots: 'Ảnh Giao Diện 12 Module',
-      videoDescHeader: 'Video Demo Toàn Diện Các Tính Năng Kinx Auto v4.8.2',
+      videoDescHeader: 'Video Demo Toàn Diện Các Tính Năng Kinx Auto v4.9.1',
       videoDescText: 'Tự động viết kịch bản, sinh prompt, lồng tiếng Voice AI & render video Veo 3.1 đa luồng không giới hạn.',
       openYoutube: 'Mở trên YouTube',
       downloadSetup: 'Tải Bản Cài Đặt',
@@ -69,7 +69,7 @@ export const Hero: React.FC<HeroProps> = ({
       supportLabel: 'Zalo hỗ trợ:',
       supportValue: '0563.402.950',
       sampleIllustration: 'MINH HỌA THỰC TẾ',
-      softwareScreenshot: 'Ảnh chụp trực tiếp từ phần mềm Kinx Auto v4.8.2',
+      softwareScreenshot: 'Ảnh chụp trực tiếp từ phần mềm Kinx Auto v4.9.1',
       exportLocal: 'Tự động xuất 100% Local',
       stat1: 'Content Creator Tin Dùng',
       stat2: 'Video AI Đã Xuất Bản',
@@ -88,10 +88,10 @@ export const Hero: React.FC<HeroProps> = ({
     en: {
       announcement: 'Powered by Google Veo 3.1 & Nano Banana Pro Engine',
       cleanSecurity: '100% Clean & Verified - No Ads',
-      videoTitle: 'Kinx Auto v4.8.2 - Official Feature Walkthrough',
+      videoTitle: 'Kinx Auto v4.9.1 - Official Feature Walkthrough',
       btnVideo: 'Watch Direct Video Demo',
       btnScreenshots: '12 Modules Screenshots',
-      videoDescHeader: 'Comprehensive Feature Walkthrough of Kinx Auto v4.8.2',
+      videoDescHeader: 'Comprehensive Feature Walkthrough of Kinx Auto v4.9.1',
       videoDescText: 'Auto script writing, prompt builder, studio voiceovers & unlimited multi-threaded Veo 3.1 rendering.',
       openYoutube: 'Open on YouTube',
       downloadSetup: 'Download Installer',
@@ -107,7 +107,7 @@ export const Hero: React.FC<HeroProps> = ({
       supportLabel: 'Tech Support:',
       supportValue: '24/7 Live Desk',
       sampleIllustration: 'LIVE DEMO CAPTURE',
-      softwareScreenshot: 'Direct screenshot from Kinx Auto v4.8.2 interface',
+      softwareScreenshot: 'Direct screenshot from Kinx Auto v4.9.1 interface',
       exportLocal: '100% Local Auto Export',
       stat1: 'Active Content Creators',
       stat2: 'AI Videos Published',
@@ -126,10 +126,10 @@ export const Hero: React.FC<HeroProps> = ({
     ja: {
       announcement: '最新 Google Veo 3.1 ＆ Nano Banana Pro 搭載',
       cleanSecurity: '100% 安全認証済み・広告なし',
-      videoTitle: 'Kinx Auto v4.8.2 - 公式機能紹介デモ動画',
+      videoTitle: 'Kinx Auto v4.9.1 - 公式機能紹介デモ動画',
       btnVideo: '動画デモを直接再生',
       btnScreenshots: '12大モジュールUI画面',
-      videoDescHeader: 'Kinx Auto v4.8.2 全機能総合デモ動画',
+      videoDescHeader: 'Kinx Auto v4.9.1 全機能総合デモ動画',
       videoDescText: '台本自動生成、プロンプト作成、スタジオ品質音声合成、Veo 3.1並列レンダリングを完全自動化。',
       openYoutube: 'YouTubeで開く',
       downloadSetup: 'インストーラーをダウンロード',
@@ -145,7 +145,7 @@ export const Hero: React.FC<HeroProps> = ({
       supportLabel: 'サポート窓口:',
       supportValue: '24時間年中無休',
       sampleIllustration: '実際の操作例',
-      softwareScreenshot: 'Kinx Auto v4.8.2 本番環境からのキャプチャ',
+      softwareScreenshot: 'Kinx Auto v4.9.1 本番環境からのキャプチャ',
       exportLocal: 'PCへ100%ローカル直接保存',
       stat1: '導入クリエイター数',
       stat2: '生成済みAI動画本数',
@@ -164,10 +164,10 @@ export const Hero: React.FC<HeroProps> = ({
     zh: {
       announcement: '全面搭载最新 Google Veo 3.1 与 Nano Banana Pro 引擎',
       cleanSecurity: '100% 绿色安全无插件 - 无广告',
-      videoTitle: 'Kinx Auto v4.8.2 - 官方全功能实测演示视频',
+      videoTitle: 'Kinx Auto v4.9.1 - 官方全功能实测演示视频',
       btnVideo: '在线播放演示视频',
       btnScreenshots: '12大核心模块界面截图',
-      videoDescHeader: 'Kinx Auto v4.8.2 全功能综合实操演示视频',
+      videoDescHeader: 'Kinx Auto v4.9.1 全功能综合实操演示视频',
       videoDescText: '自动撰写脚本、智能分镜指令、AI专业配音与 Veo 3.1 多线程高速渲染一站式闭环。',
       openYoutube: '在 YouTube 上播放',
       downloadSetup: '下载正式安装包',
@@ -183,7 +183,7 @@ export const Hero: React.FC<HeroProps> = ({
       supportLabel: '技术支持：',
       supportValue: '24小时在线服务',
       sampleIllustration: '真实效果演示',
-      softwareScreenshot: 'Kinx Auto v4.8.2 正式版系统实机截图',
+      softwareScreenshot: 'Kinx Auto v4.9.1 正式版系统实机截图',
       exportLocal: '100% 本地极速直接导出',
       stat1: '全球活跃创作者',
       stat2: '累计导出 AI 视频',
@@ -202,10 +202,10 @@ export const Hero: React.FC<HeroProps> = ({
   }[language] || {
     announcement: 'Tích Hợp Google Veo 3.1 & Nano Banana Pro Mới Nhất',
     cleanSecurity: '100% Sạch Mã Độc - Không Quảng Cáo',
-    videoTitle: 'Kinx Auto v4.8.2 - Video Giới Thiệu Tính Năng',
+    videoTitle: 'Kinx Auto v4.9.1 - Video Giới Thiệu Tính Năng',
     btnVideo: 'Xem Video Nhúng Trực Tiếp',
     btnScreenshots: 'Ảnh Giao Diện 12 Module',
-    videoDescHeader: 'Video Demo Toàn Diện Các Tính Năng Kinx Auto v4.8.2',
+    videoDescHeader: 'Video Demo Toàn Diện Các Tính Năng Kinx Auto v4.9.1',
     videoDescText: 'Tự động viết kịch bản, sinh prompt, lồng tiếng Voice AI & render video Veo 3.1 đa luồng không giới hạn.',
     openYoutube: 'Mở trên YouTube',
     downloadSetup: 'Tải Bản Cài Đặt',
@@ -221,7 +221,7 @@ export const Hero: React.FC<HeroProps> = ({
     supportLabel: 'Zalo hỗ trợ:',
     supportValue: '0563.402.950',
     sampleIllustration: 'MINH HỌA THỰC TẾ',
-    softwareScreenshot: 'Ảnh chụp trực tiếp từ phần mềm Kinx Auto v4.8.2',
+    softwareScreenshot: 'Ảnh chụp trực tiếp từ phần mềm Kinx Auto v4.9.1',
     exportLocal: 'Tự động xuất 100% Local',
     stat1: 'Content Creator Tin Dùng',
     stat2: 'Video AI Đã Xuất Bản',
@@ -249,6 +249,8 @@ export const Hero: React.FC<HeroProps> = ({
 
   return (
     <section className="relative pt-24 pb-10 lg:pt-28 lg:pb-12 overflow-hidden">
+
+
       {/* Background ambient lighting */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] sm:w-[900px] h-[450px] bg-gradient-to-tr from-purple-600/20 via-indigo-600/20 to-cyan-500/15 blur-[120px] rounded-full pointer-events-none -z-10" />
       <div className="absolute top-10 left-10 w-72 h-72 bg-purple-700/10 blur-[100px] rounded-full pointer-events-none -z-10" />
@@ -257,7 +259,7 @@ export const Hero: React.FC<HeroProps> = ({
       {/* Grid Pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#1f293710_1px,transparent_1px),linear-gradient(to_bottom,#1f293710_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none -z-10" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Main Hero Header */}
         <div className="text-center max-w-4xl mx-auto">
           {/* Top Announcement Pill */}
@@ -271,7 +273,7 @@ export const Hero: React.FC<HeroProps> = ({
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-purple-500"></span>
             </span>
-            <span className="text-white font-bold">KINX AUTO V4.8.2</span>
+            <span className="text-white font-bold">KINX AUTO V4.9.1</span>
             <span className="text-slate-400">|</span>
             <span className="flex items-center gap-1 text-slate-200">
               <Flame className="w-3.5 h-3.5 text-amber-400 fill-amber-400" />
@@ -337,7 +339,7 @@ export const Hero: React.FC<HeroProps> = ({
               className="glow-button w-full sm:w-auto flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-gradient-to-r from-purple-600 via-indigo-600 to-purple-500 text-white font-bold text-base shadow-xl shadow-purple-600/30 hover:scale-[1.02] active:scale-[0.98] transition-all cursor-pointer"
             >
               <Download className="w-5 h-5 animate-bounce" />
-              <span>{t('hero.buttons.downloadWindows', 'Tải Phần Mềm Miễn Phí (v4.8.2)')}</span>
+              <span>{t('hero.buttons.downloadWindows', 'Tải Phần Mềm Miễn Phí (v4.9.1)')}</span>
             </button>
 
             <button
@@ -571,7 +573,7 @@ export const Hero: React.FC<HeroProps> = ({
                           <div className="relative z-10 flex items-center justify-between">
                             <span className="text-xs font-mono font-bold px-2.5 py-1 rounded-md bg-black/75 backdrop-blur-md text-emerald-400 border border-emerald-500/40 flex items-center gap-1.5 shadow-lg">
                               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
-                              KINX AUTO V4.8.2
+                              KINX AUTO V4.9.1
                             </span>
                             <span className="text-xs font-semibold px-2.5 py-1 rounded-md bg-purple-950/80 backdrop-blur-md text-purple-200 border border-purple-500/40 shadow-lg">
                               {currentTab.badge}

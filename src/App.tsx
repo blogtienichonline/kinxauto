@@ -26,6 +26,7 @@ import { LeadModal } from './components/LeadModal';
 import { LegalDisclaimerModal, LegalTabType } from './components/LegalDisclaimerModal';
 import { MobileBottomNav } from './components/MobileBottomNav';
 import { FloatingChatWidget } from './components/FloatingChatWidget';
+import { ThreeBackground } from './components/ThreeBackground';
 
 export default function App() {
   const [sections, setSections] = useState<SectionConfig[]>(INITIAL_SECTIONS);
@@ -206,7 +207,10 @@ export default function App() {
       : 'w-full max-w-full overflow-x-clip transition-all duration-300';
 
   return (
-    <div className="min-h-screen w-full max-w-full overflow-x-clip bg-[#0B0F19] text-slate-100 font-sans selection:bg-purple-600 selection:text-white relative">
+    <div className="min-h-screen w-full max-w-full overflow-x-clip bg-[#070a13] text-slate-100 font-sans selection:bg-purple-600 selection:text-white relative">
+      {/* Global Interactive 3D Motion WebGL Background with built-in dimming and blur */}
+      <ThreeBackground />
+
       {/* Top Navigation */}
       <Navbar
         onOpenCustomizer={() => setIsCustomizerOpen(true)}
@@ -219,7 +223,7 @@ export default function App() {
       />
 
       {/* Main Responsive Content Container */}
-      <div className={`${deviceWrapperClass} pb-28 md:pb-12`}>
+      <div className={`${deviceWrapperClass} pb-28 md:pb-12 relative z-10`}>
         <main className="w-full max-w-full overflow-x-clip">
           {sections.map((sec) =>
             (sec.visible ?? sec.enabled ?? true) ? renderSectionComponent(sec.id) : null
